@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Skranji&display=swap'); /* font-family: 'Mochiy Pop One', sans-serif;  font-family: 'Skranji', cursive;   contenue description
+*/
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap'); /*// font-family: 'Henny Penny', cursive;   H2*/
+
+
+
+.header{
+  border: 3px solid greenyellow;
+  position: fixed;
+  /* margin-bottom: 553px;*/
+  width: 100%;
+  top: 0;
+
+}
+
+
+
+.container{
+  display: flex;
+}
+
+.container .row{ 
+
+}
+
+.container .flexible{ 
+  display: flex;
+}
+
+
+.container .row .col{ 
+
+}
+
+
+.test-card{
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: 'Henny Penny', cursive;
+    margin-bottom: -10px;
+    font-size: 50px;
+  }
+
+.firstSection{
+  margin-top: 50px;
+  border: 3px solid rgb(102, 47, 255);
+}
+
+  .cardU {
+    
+    width: 45%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 12px 32px;
+    box-shadow: lightgray 4px 4px 20px;
+    
+  }
+
+  img {
+    width: 100%;
+  }
+.mtc{
+  margin-top: 60px;
+  border: 2px orange solid;
+}
+
+.mbc{
+ padding-bottom: 40px;
+  border: 2px rgb(0, 183, 255) solid;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  border: 2px black solid;
+  width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+  .cardU {
+ width: 75%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+}
+
+@media screen and (max-width: 708px) {
+  .cardU {
+ width: 85%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+}
+
+@media screen and (max-width: 660px) {
+  .cardU {
+ width: 95%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .cardU {
+ width: 100%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+}
